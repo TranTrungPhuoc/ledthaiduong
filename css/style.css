@@ -10,3 +10,11 @@ body{
 .row{
     display: flex;
 }
+@font-face {
+    font-family:openSansRegular ;
+    src: url('/font/open-sans.regular.ttf');
+}
+@font-face {
+    font-family:openSansSemiBold ;
+    src: url('/font/open-sans.semibold.ttf');
+}

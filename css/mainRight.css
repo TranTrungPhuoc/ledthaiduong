@@ -29,6 +29,7 @@
     display: block;
     text-transform: uppercase;
     padding: 15px 35px ;
+    font-family:openSansSemiBold ;
 }
 .mainRightBlockMenu__list ul li a:hover{
     background-color: #83dc36;
@@ -89,6 +90,7 @@
     color: white;
     background-color: #83dc36;
     text-transform: uppercase;
+    font-family:openSansSemiBold ;
 }
 
 .mainRightBlockProduct__item h3{
@@ -96,12 +98,15 @@
     font-size: 14px;
     color: #83dc36;
     text-transform: uppercase;
+    font-family:openSansSemiBold ;
 }
 
 .mainRightBlockProduct__item p{
     text-align: center;
     font-size: 14px;
     color: #434343;
+    text-transform: uppercase;
+    font-family:openSansRegular ;
 }
 .item__img{
 
@@ -123,7 +128,8 @@ img{
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px 35px;  
+    padding: 10px 35px; 
+    font-family:openSansRegular ; 
 }
 
 .item__detail.active a{
@@ -149,6 +155,7 @@ img{
     font-size: 16px;
     color: #83dc36;
     text-transform: uppercase;
+    font-family:openSansSemiBold ;
 }
 
 .mainRightBlockSale__icon{
@@ -162,4 +169,5 @@ img{
     border: 1px solid #d1d0d0;
     font-size: 7px;
     color: #000;
+
 }
