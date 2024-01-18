@@ -1,0 +1,134 @@
+main{}
+.main__left{
+    width: 20%;
+}
+.mainLeft__discount{
+    margin-top:10px;
+    border:2px solid #e5e5e5;
+}
+.mainLeft__discountTitle{
+   
+}
+.mainLeft__discountTitle h3{
+    text-transform: uppercase;
+    color:#7e8285;
+    font-size: 16px;
+    padding-left:10px;
+    
+}
+.mainLeft__discountTitle h3::before{
+    content:"\A";
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: #83dc37;
+    display:inline-block;
+    margin-right:10px;
+}
+.mainLeft__discountList{}
+
+.products{
+    border-bottom:2px solid #e5e5e5;
+    
+}
+
+.products:first-child{
+    border-top:2px solid #e5e5e5;
+}
+.products__image{
+    width: 40%;
+}
+.products__image img{
+    width: 100%;
+    padding-top:20px;
+}
+.products__info{
+    padding-left:10px;
+    padding-bottom:10px;
+    width: 60%;
+}
+.products__info h4{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.products__link{
+    background-color: #83dc36;
+    border-radius:20px;
+    width: 50px;
+    height: 20px;
+}
+.products .products__link a{
+    padding:2px 2px 3px 2px;
+}
+.products__link a{
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    color:white;
+   text-align: center;    
+}
+.products__link a:hover{
+    color:black;
+}
+.mainLeft__news{
+    margin-top:10px;
+    border:2px solid #e5e5e5;
+}
+.mainLeft__newsTitle{
+    
+}
+
+.mainLeft__newsTitle h3{
+    text-transform: uppercase;
+    color:#7e8285;
+    font-size: 16px;
+    padding-left:10px;
+}
+.mainLeft__newsTitle h3::before{
+    content:"\A";
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: #83dc37;
+    display:inline-block;
+    margin-right:10px;
+    
+}
+.mainLeft__newsList {}
+
+.mainLeft__newsList h4{
+    width: 60%;
+    padding:20px;
+    margin:0;
+    text-transform: capitalize;
+    font-size: 12px;
+    color:black;
+}
+
+.mainLeft__newsList .news a{
+    text-decoration: none;
+}
+
+.news{
+    border-bottom:2px solid #e5e5e5;
+}
+
+.news:first-child{
+    border-top:2px solid #e5e5e5;
+}
+.news__link{
+    
+}
+
+    
+.news__image{
+    width: 40%;
+}
+.news__image img{
+    width: 100%;
+    padding-top:20px;
+    padding-left:10px;
+}
+
+
+
