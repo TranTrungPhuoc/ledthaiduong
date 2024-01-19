@@ -2,21 +2,21 @@
     margin-bottom: 20px ;
     padding: 0;
 }
-.mainTop__slider {
+.mainTop__image {
     
 }
-.mainTop__slider img {
+.mainTop__image img {
     width: 100%;
 }
-.mainTop__services {
+.mainTop__service {
 
 }
-.mainTop__services ul{
+.mainTop__service ul{
     margin: auto;
     display: flex;
     padding: 0;
 }
-.mainTop__services ul li{
+.mainTop__service ul li{
     margin: 0;
     padding: 10px;
     border-bottom: 1px solid #e2e2e2;
@@ -27,11 +27,11 @@
     text-align: center  ;
 }
 
-.mainTop__services ul li span{
+.mainTop__service ul li span{
     font-style: italic;
 }
 
-.mainTop__services ul li span i{
+.mainTop__service ul li span i{
     color: #83db36;
     margin-top: 5px;
     font-size: 60px;
@@ -39,7 +39,7 @@
 }
 
 
-.mainTop__services ul li h2{
+.mainTop__service ul li h2{
     
     margin: 10px;
 }
