@@ -1,0 +1,11 @@
+@import url('main.css');
+.container{
+    width: 1170px;
+    margin:auto;
+}
+body{
+    margin:0;
+}
+.row{
+    display:flex;
+}
