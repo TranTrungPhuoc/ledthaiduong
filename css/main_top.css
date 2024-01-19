@@ -1,0 +1,45 @@
+.main__top {
+    margin-bottom: 20px ;
+    padding: 0;
+}
+.mainTop__slider {
+    
+}
+.mainTop__slider img {
+    width: 100%;
+}
+.mainTop__services {
+
+}
+.mainTop__services ul{
+    margin: auto;
+    display: flex;
+    padding: 0;
+}
+.mainTop__services ul li{
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    list-style: none;
+    width: 25%;
+    text-align: center  ;
+}
+
+.mainTop__services ul li span{
+    font-style: italic;
+}
+
+.mainTop__services ul li span i{
+    color: #83db36;
+    margin-top: 5px;
+    font-size: 60px;
+    
+}
+
+
+.mainTop__services ul li h2{
+    
+    margin: 10px;
+}

@@ -1,0 +1,75 @@
+.mainBottom__left {
+    width: 25%;
+}
+
+.aside__hotproduct {
+    margin-bottom: 20px;
+}
+
+.aside__hotProduct a {}
+
+.aside__hotProduct a img {
+    width: 100%;
+}
+
+.aside__bestSeller {
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: 3px solid #e5e5e5;
+}
+
+.asideBestSeller__title {
+    border: 1px solid #e5e5e5;
+    align-items: center;
+    display: flex;
+    
+}
+
+.asideBestSellerTitle__icon {
+    text-align: center;
+    width: 30%;
+}
+
+.asideBestSellerTitle__icon i {
+    color: #83dc37;
+}
+
+.asideBestSellerTitle__heading {
+    text-align: center;
+    width: 70%;
+}
+
+.asideBestSellerTitle__heading h3 {}
+
+.asideBestSeller__list {}
+
+.products {
+    border: 1px solid #e5e5e5;
+    display: flex;
+}
+
+.products__image {
+    text-align: center;
+    width: 40%;
+}
+
+.products__image img {}
+
+.info__products{
+    text-align:left;
+    width: 60%;
+}
+
+.products h4{
+    
+}
+
+.products a{
+    
+    text-decoration: none;
+    color: white;
+    background-color: #83dc37;
+    border-radius: 20px;
+    padding: 5px 10px; 
+}
+

@@ -1,0 +1,6 @@
+@import url("mainBottom__left.css");
+@import url("mainBottom__right.css");
+.main__bottom{
+    width: 100%;
+    display: flex;
+}
