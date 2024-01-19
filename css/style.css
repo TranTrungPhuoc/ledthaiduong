@@ -1,11 +1,17 @@
+@import url('header.css');
+@import url('nav.css');
 @import url('main.css');
-.container{
+@import url('footer.css');
+
+.container {
     width: 1170px;
-    margin:auto;
+    margin: auto;
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
 }
-.row{
-    display:flex;
+
+.row {
+    display: flex;
 }
