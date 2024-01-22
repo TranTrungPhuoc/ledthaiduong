@@ -128,7 +128,9 @@
 
 .footerCenter__fanpage img {}
 
-.footerCenter__ContactInfo {}
+.footerCenter__ContactInfo {
+    margin-left: 30px;
+}
 
 .footerCenter__ContactInfo h3 {
     text-transform: uppercase;

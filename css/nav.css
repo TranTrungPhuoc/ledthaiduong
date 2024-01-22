@@ -2,8 +2,8 @@ nav {}
 
 
 
-.nav__heading i{
-    
+.nav__heading i {
+
     color: white;
     margin: 0px 15px;
 }
@@ -16,7 +16,7 @@ nav {}
     width: 25%;
     border-radius: 10px 10px 0px 0px;
     position: relative;
-    
+
 }
 
 .nav__heading h2 {
@@ -25,7 +25,7 @@ nav {}
     color: white;
     font-size: 14px;
     text-transform: uppercase;
-    
+
 }
 
 /* .nav__heading:hover ul.subMenu{
@@ -37,29 +37,29 @@ nav {}
     top: 37px;
 } */
 
-.nav__heading ul.subMenu{
+.nav__heading ul.subMenu {
     padding: 0;
     display: none;
     list-style: none;
     text-align: left;
     position: absolute;
     width: 262px;
-    background-color:white;
-    
+    background-color: white;
+
 }
 
 .nav__heading ul.subMenu li {
-    
+
     border-bottom: 1px dashed #6969;
 }
 
 .nav__heading ul.subMenu li:last-child {
-    
-    border-bottom: 0px ;
-  
+
+    border-bottom: 0px;
+
 }
 
-.nav__heading ul.subMenu li a{
+.nav__heading ul.subMenu li a {
     text-transform: uppercase;
     padding: 10px;
     text-decoration: none;
@@ -68,15 +68,14 @@ nav {}
     display: block;
 }
 
-.nav__heading ul.subMenu li a:hover{
-    
-    background-color:  #83dc36;
+.nav__heading ul.subMenu li a:hover {
+
+    background-color: #83dc36;
     color: white;
 }
 
-.subMenu ul{
-    
-}
+.subMenu ul {}
+
 .navCategory__list {}
 
 .navCategory__list ul {}
@@ -86,7 +85,7 @@ nav {}
 .navCategory__list ul li a {}
 
 .nav__menu {
-    
+
     width: 75%;
 }
 
@@ -98,10 +97,10 @@ nav {}
 }
 
 .nav__menu ul li {
-    
-    
+
+
     text-transform: uppercase;
-    
+
 }
 
 .nav__menu ul li a {
@@ -117,7 +116,7 @@ nav {}
 }
 
 
-nav input{
+nav input {
     display: none;
 }
 
@@ -129,7 +128,7 @@ input#menu2 {
     display: none;
 }
 
-label#label1{
+label#label1 {
     display: none;
 }
 
@@ -141,5 +140,3 @@ input#menu2:checked~.subMenu {
     display: block;
     top: 37px;
 }
-
-
