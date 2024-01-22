@@ -1,6 +1,6 @@
 @import url('header.css');
 @import url('nav.css');
-@import url('main.css');
+@import url('mainleft.css');
 @import url('footer.css');
 
 .container {
@@ -21,3 +21,5 @@ body{
     font-family:openSansSemiBold ;
     src: url('/font/open-sans.semibold.ttf');
 }
+
+
