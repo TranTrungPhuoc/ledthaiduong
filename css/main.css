@@ -16,6 +16,7 @@ main {}
     color: #7e8285;
     font-size: 16px;
     padding-left: 10px;
+    font-family: "Open-sans-semibold";
 
 }
 
@@ -56,8 +57,9 @@ main {}
 }
 
 .products__info h4 {
-    font-size: 14px;
+    font-size: 13px;
     text-transform: capitalize;
+    font-family: "Open-sans-semibold";
 }
 
 .products__link {
@@ -77,6 +79,7 @@ main {}
     text-transform: uppercase;
     color: white;
     text-align: center;
+    font-family: "Open-sans-semibold";
 }
 
 .products__link a:hover {
@@ -97,6 +100,7 @@ main {}
     color: #7e8285;
     font-size: 16px;
     padding-left: 10px;
+    font-family: "Open-sans-semibold";
 }
 
 .mainLeft__newsTitle h3::before {
@@ -119,6 +123,7 @@ main {}
     text-transform: capitalize;
     font-size: 12px;
     color: black;
+    font-family: "Open-sans-semibold";
 }
 
 .mainLeft__newsList .news a {
@@ -145,3 +150,9 @@ main {}
     padding-top: 20px;
     padding-left: 10px;
 }
+/* .news a{
+    display:flex;
+} */
+/* .news a h4:hover{
+    color:red;
+} */

@@ -9,3 +9,11 @@ body{
 .row{
     display:flex;
 }
+@font-face {
+    font-family: "Open-sans";
+    src: url('/ledthaiduong/css/font/open-sans.regular.ttf');
+}
+@font-face {
+    font-family: "Open-sans-semibold";
+    src: url('/ledthaiduong/css/font/open-sans.semibold.ttf');
+}
