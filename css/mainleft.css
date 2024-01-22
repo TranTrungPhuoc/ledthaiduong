@@ -1,51 +1,60 @@
 @import url('mainRight.css');
 
 
-main{
+main {
     background-color: white;
 }
 
 
-.container{
+.container {
     width: 1202px;
     margin: auto;
 }
-body{
+
+body {
     padding: 0px;
     margin: 0px;
 }
-.row{
+
+.row {
     display: flex;
 }
+
 @font-face {
-    font-family:openSansRegular ;
+    font-family: openSansRegular;
     src: url('/font/open-sans.regular.ttf');
 }
+
 @font-face {
-    font-family:openSansSemiBold ;
+    font-family: openSansSemiBold;
     src: url('/font/open-sans.semibold.ttf');
 }
+
 .main__left {
     width: 20%;
+    padding-right: 10px;
 }
 
-.mainLeft__discount {
+aside {}
+
+
+.aside__discount {
     margin-top: 10px;
     border: 2px solid #e5e5e5;
 }
 
-.mainLeft__discountTitle {}
+.aside__discountTitle {}
 
-.mainLeft__discountTitle h3 {
+.aside__discountTitle h3 {
     text-transform: uppercase;
     color: #7e8285;
     font-size: 16px;
     padding-left: 10px;
-    font-family: "Open-sans-semibold";
+    font-family: openSansSemiBold;
 
 }
 
-.mainLeft__discountTitle h3::before {
+.aside__discountTitle h3::before {
     content: "\A";
     width: 10px;
     height: 10px;
@@ -55,13 +64,16 @@ body{
     margin-right: 10px;
 }
 
-.mainLeft__discountList {}
+.aside__discountList {}
 
 .products {
     border-bottom: 2px solid #e5e5e5;
 
 }
-
+.products:hover{
+    border-left:2px solid #e5e5e5;
+    border-right:2px solid #e5e5e5;
+}
 .products:first-child {
     border-top: 2px solid #e5e5e5;
 }
@@ -84,7 +96,10 @@ body{
 .products__info h4 {
     font-size: 13px;
     text-transform: capitalize;
-    font-family: "Open-sans-semibold";
+    font-family: openSansRegular;
+}
+.products__info:hover{
+    color:#83dc36
 }
 
 .products__link {
@@ -92,35 +107,37 @@ body{
     border-radius: 20px;
     width: 50px;
     height: 20px;
-}
-
-.products .products__link a {
-    padding: 2px 2px 3px 2px;
-}
-
-.products__link a {
     text-decoration: none;
     font-size: 10px;
     text-transform: uppercase;
     color: white;
     text-align: center;
-    font-family: "Open-sans-semibold";
+    font-family: openSansSemiBold;
 }
 
-.products__link a:hover {
+.products .products__link {
+    padding: 2px 2px 3px 2px;
+}
+
+
+.products__link:hover {
     color: black;
     transition: 0.75s;
     transition-timing-function: linear;
 }
 
-.mainLeft__news {
+img {
+    border: none;
+}
+
+.aside__news {
     margin-top: 10px;
     border: 2px solid #e5e5e5;
 }
 
-.mainLeft__newsTitle {}
+.aside__newsTitle {}
 
-.mainLeft__newsTitle h3 {
+.aside__newsTitle h3 {
     text-transform: uppercase;
     color: #7e8285;
     font-size: 16px;
@@ -128,7 +145,7 @@ body{
     font-family: "Open-sans-semibold";
 }
 
-.mainLeft__newsTitle h3::before {
+.aside__newsTitle h3::before {
     content: "\A";
     width: 10px;
     height: 10px;
@@ -139,31 +156,36 @@ body{
 
 }
 
-.mainLeft__newsList {}
+.aside__newsList {}
 
-.mainLeft__newsList h4 {
+.aside__newsList a {
     width: 60%;
     padding: 20px;
     margin: 0;
     text-transform: capitalize;
     font-size: 12px;
     color: black;
-    font-family: "Open-sans-semibold";
+    font-family: openSansSemiBold;
+    text-decoration: none;
+
 }
 
-.mainLeft__newsList .news a {
-    text-decoration: none;
-}
 
 .news {
     border-bottom: 2px solid #e5e5e5;
 }
 
+.news:hover{
+    border-left:2px solid #e5e5e5;
+    border-right:2px solid #e5e5e5;
+}
+
 .news:first-child {
     border-top: 2px solid #e5e5e5;
 }
-
-.news__link {}
+.news a:hover{
+    color:#83dc36
+}
 
 
 .news__image {
@@ -175,6 +197,7 @@ body{
     padding-top: 20px;
     padding-left: 10px;
 }
+
 /* .news a{
     display:flex;
 } */
