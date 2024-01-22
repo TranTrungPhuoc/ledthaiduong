@@ -1,5 +1,30 @@
-main {}
+@import url('mainRight.css');
 
+
+main{
+    background-color: white;
+}
+
+
+.container{
+    width: 1202px;
+    margin: auto;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.row{
+    display: flex;
+}
+@font-face {
+    font-family:openSansRegular ;
+    src: url('/font/open-sans.regular.ttf');
+}
+@font-face {
+    font-family:openSansSemiBold ;
+    src: url('/font/open-sans.semibold.ttf');
+}
 .main__left {
     width: 20%;
 }
