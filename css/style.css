@@ -7,11 +7,17 @@
     width: 1170px;
     margin: auto;
 }
-
-body {
-    margin: 0;
+body{
+    margin: 0px;
 }
-
-.row {
+.row{
     display: flex;
+}
+@font-face {
+    font-family:openSansRegular ;
+    src: url('/font/open-sans.regular.ttf');
+}
+@font-face {
+    font-family:openSansSemiBold ;
+    src: url('/font/open-sans.semibold.ttf');
 }

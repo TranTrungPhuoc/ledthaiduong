@@ -1,5 +1,11 @@
 @import url('mainRight.css');
+<<<<<<< HEAD
 main {}
+=======
+main{
+    background-color: white;
+}
+>>>>>>> c9a4de51b5321cd031a1889d6198c5d3700dd671
 
 .container{
     width: 1202px;

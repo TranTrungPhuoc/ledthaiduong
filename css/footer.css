@@ -1,0 +1,167 @@
+.footer__top {
+    background-color: #323232;
+}
+
+.footer__top ul {
+    display: flex;
+    margin-left: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.footer__top ul li {}
+
+.footer__top ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px;
+}
+
+.footer__top ul li a:hover {
+    background-color: #83dc36;
+    color: #111111;
+}
+
+.footer__center {
+    background-color: #323232;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.footerCenter__info {
+    color: white;
+    width: 25%;
+}
+
+.footerCenter__info h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.footerCenter__info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerCenter__info ul li {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+
+
+}
+
+.footerCenter__info ul li span {
+    font-size: 14px;
+
+    width: 50%;
+}
+
+.footerCenter__info ul li span:first-child {
+    width: 20%;
+}
+
+.footerCenter__incentives {
+    width: 20%;
+}
+
+.footerCenter__incentives h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.footerCenter__incentives ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerCenter__incentives ul li {
+    padding-bottom: 15px;
+}
+
+.footerCenter__incentives ul li::before {
+    content: "\A";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footerCenter__incentives ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footerCenter__incentives ul li a:hover {
+    color: #83dc36;
+}
+
+.footerCenter__fanpage {
+    width: 30%;
+}
+
+.footerCenter__fanpage a {
+    text-decoration: none;
+}
+
+.footerCenter__fanpage a h3:hover {
+    color: #83dc36;
+}
+
+.footerCenter__fanpage h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.footerCenter__fanpage img {}
+
+.footerCenter__ContactInfo {}
+
+.footerCenter__ContactInfo h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.footerCenter__ContactInfo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerCenter__ContactInfo ul li {
+    color: white;
+
+}
+
+.footer__bottom {
+    background-color: #111111;
+    padding: 5px;
+    display: flex;
+}
+
+.footerBottom__left {
+    color: white;
+    width: 50%;
+    font-style: italic;
+}
+
+.footerBottom__right {
+    color: white;
+    text-align: right;
+    width: 50%;
+    font-style: italic;
+}
