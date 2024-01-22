@@ -1,0 +1,145 @@
+nav {}
+
+
+
+.nav__heading i{
+    
+    color: white;
+    margin: 0px 15px;
+}
+
+.nav__heading {
+    text-align: center;
+    background-color: #83dc36;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    
+}
+
+.nav__heading h2 {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+/* .nav__heading:hover ul.subMenu{
+    
+    display: block;
+    padding: 0px 15px;
+    border-radius: 0px 0px 10px 10px;
+    
+    top: 37px;
+} */
+
+.nav__heading ul.subMenu{
+    padding: 0;
+    display: none;
+    list-style: none;
+    text-align: left;
+    position: absolute;
+    width: 262px;
+    background-color:white;
+    
+}
+
+.nav__heading ul.subMenu li {
+    
+    border-bottom: 1px dashed #6969;
+}
+
+.nav__heading ul.subMenu li:last-child {
+    
+    border-bottom: 0px ;
+  
+}
+
+.nav__heading ul.subMenu li a{
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    display: block;
+}
+
+.nav__heading ul.subMenu li a:hover{
+    
+    background-color:  #83dc36;
+    color: white;
+}
+
+.subMenu ul{
+    
+}
+.navCategory__list {}
+
+.navCategory__list ul {}
+
+.navCategory__list ul li {}
+
+.navCategory__list ul li a {}
+
+.nav__menu {
+    
+    width: 75%;
+}
+
+.nav__menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__menu ul li {
+    
+    
+    text-transform: uppercase;
+    
+}
+
+.nav__menu ul li a {
+    padding: 18px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.nav__menu ul li a:hover {
+    color: #83dc36;
+}
+
+
+nav input{
+    display: none;
+}
+
+
+
+
+
+input#menu2 {
+    display: none;
+}
+
+label#label1{
+    display: none;
+}
+
+
+
+input#menu2:checked~.subMenu {
+    padding: 0px 15px;
+    border-radius: 0px 0px 10px 10px;
+    display: block;
+    top: 37px;
+}
+
+
