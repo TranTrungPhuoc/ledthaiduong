@@ -1,5 +1,6 @@
+@import url('mainRight.css');
 main {}
-@import url('main.css');
+
 .container{
     width: 1202px;
     margin: auto;
