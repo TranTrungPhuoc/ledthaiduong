@@ -1,4 +1,7 @@
-main {}
+@import url('mainRight.css');
+main{
+    background-color: white;
+}
 
 .main__left {
     width: 20%;
